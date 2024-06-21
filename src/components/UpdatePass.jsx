@@ -23,7 +23,7 @@ function UpdatePass()
         if (obj.password === obj.password1) {
             console.log("Passwords match");
             setErrorMessage("");
-            const url = "http://localhost:3007/Login/updatePass";
+            const url = "https://g2c-4.onrender.com/Login/updatePass";
         
             const servermesg = await axios.post(url, obj);
             setMessage(servermesg.data.msg);

@@ -58,7 +58,7 @@ When the file reading operation is completed successfully, the onload event is t
 
   // and if i want to save the image also - i need to make a formdata obj
   async function doSave() {
-    const url = "http://localhost:3007/CProfile/add-C";
+    const url = "https://g2c-4.onrender.com/CProfile/add-C";
 
     var formdata = new FormData();
     for (var prop in obj) {
@@ -87,7 +87,7 @@ When the file reading operation is completed successfully, the onload event is t
 
       if (servermesg.data.res[0].adhaarPic) {
         // const Pic = servermesg.data.res[0].adhaarPic;
-        setprev(`http://localhost:3007/uploads/${servermesg.data.res[0].adhaarPic}`);
+        setprev(`https://g2c-4.onrender.com/uploads/${servermesg.data.res[0].adhaarPic}`);
       }
     } else {
       alert("not found");
@@ -103,7 +103,7 @@ When the file reading operation is completed successfully, the onload event is t
     if (flag == "") // agr user ne pic chnge nhi kiti after search
     {
 
-      setObj({ ...obj, ["adhaarPic"]: `http://localhost:3007/uploads/${hdn}` });
+      setObj({ ...obj, ["adhaarPic"]: `https://g2c-4.onrender.com/uploads/${hdn}` });
 
     }
 
@@ -113,7 +113,7 @@ When the file reading operation is completed successfully, the onload event is t
     }
 
 
-    const url = "http://localhost:3007/CProfile/update-C";
+    const url = "https://g2c-4.onrender.com/CProfile/update-C";
     const serverMsg = await axios.post(url, formdata, { headers: { 'Content-Type': 'multipart/form-data' } });
     console.log(serverMsg)
 

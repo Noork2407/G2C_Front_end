@@ -19,7 +19,7 @@ function Signup() {
     }
 
     async function doSignup(event) {
-        const url = "http://localhost:3007/Signup/add-Usr";
+        const url = "https://g2c-4.onrender.com/Signup/add-Usr";
 
 
         const serverMsg = await axios.post(url, obj);

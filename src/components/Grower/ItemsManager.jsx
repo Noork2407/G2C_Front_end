@@ -30,7 +30,7 @@ function ItemsManager() {
 
 
    async function doDelete(objj) {
-       const url = "http://localhost:3007/GAvail/doDelete"
+       const url = "https://g2c-4.onrender.com/GAvail/doDelete"
         const serverMsg = await axios.post(url, objj);
 
     
@@ -53,7 +53,7 @@ function ItemsManager() {
 
     // and if i want to save the image also - i need to make a formdata obj
     async function doSearch() {
-        const url = "http://localhost:3007/GAvail/showProducts";
+        const url = "https://g2c-4.onrender.com/GAvail/showProducts";
 
 
         const servermesg = await axios.post(url, obj);
@@ -131,7 +131,7 @@ function ItemsManager() {
                                                     <td className="px-4 py-2">{objj.email}</td>
                                                     <td className="px-4 py-2">{objj.category}</td>
                                                     <td className="px-4 py-2">{objj.items}</td>
-                                                    <td className="px-4 py-2 whitespace-wrap"><img src={`http://localhost:3007/uploads/${objj.productPic}`} alt={objj.productPic} className="w-24 h-24" /></td>
+                                                    <td className="px-4 py-2 whitespace-wrap"><img src={`https://g2c-4.onrender.com/uploads/${objj.productPic}`} alt={objj.productPic} className="w-24 h-24" /></td>
                                                     <td className="px-4 py-2">
                                                         <input type="button" value="Delete" className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => doDelete(objj)} />
                                                     </td>

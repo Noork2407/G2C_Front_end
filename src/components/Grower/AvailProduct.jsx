@@ -121,7 +121,7 @@ function AvailProduct() {
 
   // and if i want to save the image also - i need to make a formdata obj
   async function doAvail() {
-    const url = "http://localhost:3007/GAvail/addProduct";
+    const url = "https://g2c-4.onrender.com/GAvail/addProduct";
 
     var formdata = new FormData();
     for (var prop in obj) {

@@ -100,7 +100,7 @@ function Modal({ isVisible, onClose, data }) {
               <label className="flex-1">
                 <strong>Adhar Pic:</strong>
                 <img
-                  src={`http://localhost:3007/uploads/${obj.adhaarPic}`}
+                  src={`https://g2c-4.onrender.com/uploads/${obj.adhaarPic}`}
                   alt="Adhar"
                   className="w-48 h-48"
                 />
@@ -132,7 +132,7 @@ function Modal({ isVisible, onClose, data }) {
         console.log();
         console.log(obj);
         
-         const url = "http://localhost:3007/GProfile/fetchGfromProfile";
+         const url = "https://g2c-4.onrender.com/GProfile/fetchGfromProfile";
 
          try {
             const servermsg = await axios.post(url, obj);
@@ -169,7 +169,7 @@ function Card(prop)
     <div class="flex bg-white rounded-lg shadow dark:bg-gray-800 flex-col md:flex-row">
         <div class="relative w-full md:w-48 flex justify-center items-center whitespace-wrap">
 
-            <img src={`http://localhost:3007/uploads/${prop.data.productPic}`} alt="shopping image" class=" w-48 h-48 md:h-full rounded-t-lg md:rounded-l-lg md:rounded-t-none"/>
+            <img src={`https://g2c-4.onrender.com/uploads/${prop.data.productPic}`} alt="shopping image" class=" w-48 h-48 md:h-full rounded-t-lg md:rounded-l-lg md:rounded-t-none"/>
         </div>
         <form class="flex-auto p-6">
             <div class="flex flex-wrap">

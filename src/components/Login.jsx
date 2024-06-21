@@ -32,7 +32,7 @@ function Login() {
 
     async function doLogin(event) {
         // alert();
-        const url = "http://localhost:3007/Login/doLogin";
+        const url = "https://g2c-4.onrender.com/Login/doLogin";
 
         
         const servermesg = await axios.post(url, obj);

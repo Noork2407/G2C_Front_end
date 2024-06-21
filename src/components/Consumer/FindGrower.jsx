@@ -20,7 +20,7 @@ function FindGrower() {
 
         setCities([]);
 
-        const url = "http://localhost:3007/FindG/fetchCity";
+        const url = "https://g2c-4.onrender.com/FindG/fetchCity";
 
         const cities = await axios.post(url,obj);
 
@@ -102,7 +102,7 @@ function FindGrower() {
 
     async function doSearch()
     {
-        const url = "http://localhost:3007/FindG/fetchGrower";
+        const url = "https://g2c-4.onrender.com/FindG/fetchGrower";
         const servermsg = await axios.post(url,obj);
 
         

@@ -13,7 +13,7 @@ function Forgotpass()
 
     async function doGetOtp()
     {
-        const url = "http://localhost:3007/Login/getOtp";
+        const url = "https://g2c-4.onrender.com/Login/getOtp";
 
         
         const servermesg = await axios.post(url, obj);

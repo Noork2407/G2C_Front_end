@@ -89,7 +89,7 @@ When the file reading operation is completed successfully, the onload event is t
 
       if (servermesg.data.res[0].adhaarPic) {
         // const Pic = servermesg.data.res[0].adhaarPic;
-        setprev(`http://localhost:3007/uploads/${servermesg.data.res[0].adhaarPic}`);
+        setprev(`https://g2c-4.onrender.com/uploads/${servermesg.data.res[0].adhaarPic}`);
       }
     } else {
       alert("not found");
@@ -105,7 +105,7 @@ When the file reading operation is completed successfully, the onload event is t
     if (flag == "") // agr user ne pic chnge nhi kiti after search
     {
 
-      setObj({ ...obj, ["adhaarPic"]: `http://localhost:3007/uploads/${hdn}` });
+      setObj({ ...obj, ["adhaarPic"]: `https://g2c-4.onrender.com/uploads/${hdn}` });
 
     }
 

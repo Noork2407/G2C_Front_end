@@ -25,7 +25,7 @@ function VerifyOtp()
 
     async function doVerifyOtp() {
 
-        const url = "http://localhost:3007/Login/verify";
+        const url = "https://g2c-4.onrender.com/Login/verify";
         
         const servermesg = await axios.post(url, obj);
         if(servermesg.data.status)
