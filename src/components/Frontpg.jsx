@@ -132,7 +132,7 @@ function Frontpg()
     </div>
 </div></div>
 
-      <p class="text-center bg-blueGray-800 px-2 py-3 text-white font-bold ...">Meet the Developers</p>
+      {/* <p class="text-center bg-blueGray-800 px-2 py-3 text-white font-bold ...">Meet the Developers</p>
            <div class="flex-grow flex justify-around items-center mt-10 mb-10">
       
            
@@ -163,7 +163,7 @@ function Frontpg()
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Author Of RealJava</p>
         </div>
     </a>
-</div>
+</div> */}
 
 
       {/* <div class="w-full max-w-xs mx-2 relative group bg-gray-900  py-12 sm:py-24 px-6  flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
@@ -172,7 +172,7 @@ function Frontpg()
         <input type="button" value="Avail "  className="sm:col-span-2 bg-green-500 text-white p-2 rounded-md cursor-pointer" />
 
       </div> */}
-      </div>
+      {/* </div> */}
 
 </div>
         </>
