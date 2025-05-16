@@ -132,47 +132,6 @@ function Frontpg()
     </div>
 </div></div>
 
-      {/* <p class="text-center bg-blueGray-800 px-2 py-3 text-white font-bold ...">Meet the Developers</p>
-           <div class="flex-grow flex justify-around items-center mt-10 mb-10">
-      
-           
-           <div class="flex flex-col items-center">
-    <h3 class="text-left mb-4 text-3xl font-bold">Developed by</h3>
-    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-        <div class="w-48 h-96 md:w-48 md:h-96 rounded-t-lg overflow-hidden">
-            <img class="object-cover w-full h-full" src="photos/IMG_20221223_173759 (1).jpg" alt=""/>
-        </div>
-        <div class="flex flex-col justify-between p-4 leading-normal">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Parnoor Kaur</h5>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Email - parnoork24@gmail.com</p>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">College - NIT Kurukshetra</p>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Branch - Computer Engineering</p>
-        </div>
-    </a>
-</div>
-
-<div class="flex flex-col items-center">
-    <h3 class="text-left mb-4 text-3xl font-bold">Under the guidance of</h3>
-    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-        <div class="w-48 h-96 md:w-48 md:h-96 rounded-t-lg overflow-hidden">
-            <img class="object-cover w-full h-full" src="photos/photo.jpg" alt=""/>
-        </div>
-        <div class="flex flex-col justify-between p-4 leading-normal">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mr. Rajesh K Bansal</h5>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Institute - Banglore Computer Education</p>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Author Of RealJava</p>
-        </div>
-    </a>
-</div> */}
-
-
-      {/* <div class="w-full max-w-xs mx-2 relative group bg-gray-900  py-12 sm:py-24 px-6  flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
-        <img class="w-32 h-32 object-cover object-center " src="photos/groceries.png" alt="art" />
-        <h4 class="text-white text-2xl font-bold capitalize text-center">developer</h4>
-        <input type="button" value="Avail "  className="sm:col-span-2 bg-green-500 text-white p-2 rounded-md cursor-pointer" />
-
-      </div> */}
-      {/* </div> */}
 
 </div>
         </>
